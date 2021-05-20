@@ -393,11 +393,11 @@ input {
   background-color: white;
 }
 
-.focus:before {
+/* .focus:before {
   transform: scale(0);
   animation: none;
   position: absolute;
-}
+} */
 
 @keyframes focus {
   0% {
