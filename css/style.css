@@ -333,6 +333,8 @@ input {
   position: absolute;
   width: 5vw;
   height: 5vw;
+  outline:none;
+  border:none;
   transition: all 0.5s cubic-bezier(.87, -.41, .19, 1.44);
 }
 
@@ -342,6 +344,8 @@ input {
   position: absolute;
   border-radius: 36px;
   font-size: 1.5vw;
+  outline:none;
+  border:none;
   font-family: 'Poiret One',cursive;
   font-weight:900;
 }
