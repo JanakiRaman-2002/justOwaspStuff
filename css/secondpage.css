@@ -88,6 +88,12 @@ section img
   margin-bottom: 20px;
 }
 
+.img_img
+{
+  width: 100%;
+  height: 100%;
+}
+
 /* p
 {
     font-size: 20px;
@@ -119,7 +125,7 @@ section img
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #082236;
+    background: #000;
     box-shadow: 0.2rem 0.2rem 2rem black;
     overflow: hidden;
     transition: 0.5s;
@@ -186,7 +192,7 @@ section img
   .click-button{
     padding: 1rem;
     width: 5rem;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.6);
     color: #fff;
     cursor: pointer;
     position: absolute;
@@ -211,7 +217,7 @@ section img
   .card span:nth-child(1){
     width: 100%;
     height: 0.3rem;
-    background: linear-gradient(to right,transparent,#1779ff);
+    background: linear-gradient(to right,transparent,red);
     position: absolute;
     top:0;
     left: 0;
@@ -228,7 +234,7 @@ section img
   .card span:nth-child(2){
     height: 100%;
     width: 0.3rem;
-    background: linear-gradient(to bottom,transparent,#1779ff);
+    background: linear-gradient(to bottom,transparent,red);
     position: absolute;
     top:0;
     right: 0;
